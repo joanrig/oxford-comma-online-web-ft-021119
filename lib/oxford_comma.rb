@@ -9,6 +9,6 @@ def oxford_comma(array)
     last = array.pop
     list = array.join(", ")
     list + ",  and" + last
-    bining.pry
+    binding.pry
   end
 end
