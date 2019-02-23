@@ -8,6 +8,6 @@ def oxford_comma(array)
   elsif array.length > 2
     last = array.pop
     list = array.map { |word| word + ", "}
-    return list + ", " + last
+    return (list + ", " + last).to_a
   end
 end
