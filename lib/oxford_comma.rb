@@ -9,5 +9,6 @@ def oxford_comma(array)
     last = array.pop
     list = array.map { |word| word + ", "}
     return list + ",  and" + last
+    binding.pry
   end
 end
